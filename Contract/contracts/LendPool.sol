@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./utils/lendaReserve.sol";
 import "./utils/priceOracle.sol";
-import "./utils/BMatic.sol";
+import "./utils/Bmatic.sol";
 import {CollateralStorage} from "./libraries/collateralStorage.sol";
 
 /**

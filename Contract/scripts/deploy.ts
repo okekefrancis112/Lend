@@ -45,13 +45,13 @@ async function main() {
   //   contract: "contracts/utils/yield.sol:YieldContract"
   // })
 
-  console.log(`verifying for lendpool contract`);
+  // console.log(`verifying for lendpool contract`);
 
-  await run(`verify:verify`, {
-    address: "0xD287cc4B99cA787c0d7F949deD9961531aEda71E",
-    constructorArguments: ["0x74d68b3c83ED72Da304dc4b7F8A25696CC11411a"],
-    contract: "contracts/LendPool.sol:LendPool"
-  })
+  // await run(`verify:verify`, {
+  //   address: "0xD287cc4B99cA787c0d7F949deD9961531aEda71E",
+  //   constructorArguments: ["0x74d68b3c83ED72Da304dc4b7F8A25696CC11411a"],
+  //   contract: "contracts/LendPool.sol:LendPool"
+  // })
 
 
 }
